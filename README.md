@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Saaki – Women Wellness Chatbot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Saaki (Team Empower Her)** is an **AI-driven women’s wellness platform** developed for **Smart India Hackathon 2025** under the **MedTech / BioTech / HealthTech** theme.
+It offers **AI-powered health conversations**, **secure user authentication**, and **personalized wellness guidance** to empower women in **rural and semi-urban areas** with accessible and accurate healthcare information.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+* 🤖 **AI-Powered Chatbot:** Integrated with **Chatbase (GPT-4)** for intelligent and empathetic health conversations.
+* 💬 **Women-Centric Health Guidance:** Focuses on **menstrual health**, **maternal care**, **mental well-being**, and **infectious disease awareness**.
+* 🔐 **User Authentication:** Secure **signup/login** using **Node.js, Express, and MongoDB**, enabling personalized interactions and data privacy.
+* 💻 **Modern Frontend:** Built with **React + Tailwind CSS** for a clean, responsive, and user-friendly interface.
+* 👩‍⚕️ **Assistive for Health Workers:** Supports **ASHA and community health workers** with AI-guided educational assistance.
+* 🌍 **Scalable & Adaptable:** Designed to support multiple languages and regional health contexts.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Tech Stack
 
-### `npm test`
+* **Frontend:** React, Tailwind CSS, React Router
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB (Mongoose ORM)
+* **Chatbot Integration:** Chatbase.co (GPT-4 powered)
+* **Design & Prototyping:** Figma
+* **Deployment:** Render
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⚡ Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/manamdhanya/Saaki-Women-Wellness.git
+cd Saaki-Women-Wellness
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Install dependencies
 
-### `npm run eject`
+For both frontend and backend:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. Set up environment variables
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Create a `.env` file and add:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+REACT_APP_CHATBASE_ID=YOUR_CHATBASE_ID
+```
 
-## Learn More
+### 4. Start the development servers
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Start backend
+cd server
+node server.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Start frontend
+npm start
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🎯 Impact & Benefits
 
-### Analyzing the Bundle Size
+* ✅ Empowers women with **reliable and accurate health information**.
+* ✅ Enhances awareness about **maternal, menstrual, and mental wellness**.
+* ✅ Ensures **data security and privacy** through user authentication.
+* ✅ Helps **reduce stigma and misinformation** in rural and semi-urban communities.
+* ✅ Designed to be **scalable and adaptable** across different languages and cultures.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🔮 Future Scope
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* 🌐 **Multi-language and regional content support.**
+* 🎙 **Voice-enabled chatbot** for non-literate users.
+* 📊 **Integration with national health programs and NGOs.**
+* 🧠 **AI-based personalized wellness tracking and insights.**
+* 📱 **Mobile app version** for enhanced accessibility and offline use.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📚 Research & References
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* *Chatbots for Healthcare – IJNRD2403463*
+* *AI-Driven Healthcare Chatbot using Data Science with Python*
+* *Voice Enabled Chatbot for Healthcare – VI Sem Project*
