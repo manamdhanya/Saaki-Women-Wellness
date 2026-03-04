@@ -1,7 +1,7 @@
 # Saaki – Women Wellness Chatbot
 
-**Saaki (Team Empower Her)** is an **AI-driven women’s wellness platform** developed for **Smart India Hackathon 2025** under the **MedTech / BioTech / HealthTech** theme.
-It offers **AI-powered health conversations**, **secure user authentication**, and **personalized wellness guidance** to empower women in **rural and semi-urban areas** with accessible and accurate healthcare information.
+Saaki is an **AI-powered health chatbot** designed under the *MedTech / BioTech / HealthTech* theme.  
+It provides **disease awareness, maternal and menstrual health guidance, and infectious disease information** for rural women and communities, helping reduce misinformation and empower better healthcare decisions.  
 
 ---
 
